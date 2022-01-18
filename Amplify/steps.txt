@@ -1,0 +1,19 @@
+npm install -g @aws-amplify/cli
+
+npm i -g create-react-app
+
+npx create-react-app amplify-react-app
+
+cd amplify-react-app
+
+amplify configure // set up user
+
+amplify init - set project
+
+amplify add auth -- add authentication
+
+amplify push
+
+npm install --save aws-amplify @aws-amplify/ui-react
+
+npm start

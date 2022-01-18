@@ -1,0 +1,402 @@
+C:\Users\kumar\amplify-react-app>amplify configure
+Follow these steps to set up access to your AWS account:
+
+Sign in to your AWS administrator account:
+https://console.aws.amazon.com/
+Press Enter to continue
+
+Specify the AWS Region
+? region:  (Use arrow keys)
+> us-east-1
+  us-east-2
+  us-west-2
+  eu-west-1
+  eu-west-2
+  eu-central-1
+  ap-northeast-1
+(Move up and down to reveal more choices)
+C:\Users\kumar\amplify-react-app>amplify configure
+Follow these steps to set up access to your AWS account:
+
+Sign in to your AWS administrator account:
+https://console.aws.amazon.com/
+Press Enter to continue
+
+Specify the AWS Region
+? region:  us-west-2
+Specify the username of the new IAM user:
+? user name:  amplify-user
+Complete the user creation using the AWS console
+https://console.aws.amazon.com/iam/home?region=us-west-2#/users$new?step=final&accessKey&userNames=amplify-user&permissionType=policies&policies=arn:aws:iam::aws:policy%2FAdministratorAccess
+Press Enter to continue
+
+Enter the access key of the newly created user:
+? accessKeyId:  ********************
+? secretAccessKey:  ****************************************
+This would update/create the AWS Profile in your local machine
+? Profile Name:  amplify-user
+
+Successfully set up the new user.
+
+C:\Users\kumar\amplify-react-app>amplify init
+Note: It is recommended to run this command from the root of your app directory
+? Enter a name for the project amplifyreactapp
+The following configuration will be applied:
+
+Project information
+| Name: amplifyreactapp
+| Environment: dev
+| Default editor: Visual Studio Code
+| App type: javascript
+| Javascript framework: react
+| Source Directory Path: src
+| Distribution Directory Path: build
+| Build Command: npm.cmd run-script build
+| Start Command: npm.cmd run-script start
+
+? Initialize the project with the above configuration? Yes
+Using default provider  awscloudformation
+? Select the authentication method you want to use: AWS profile
+
+For more information on AWS Profiles, see:
+https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html
+
+? Please choose the profile you want to use amplify-user
+Adding backend environment dev to AWS Amplify Console app: d3p2pft6tswzyp
+| Initializing project in the cloud...
+
+CREATE_IN_PROGRESS amplify-amplifyreactapp-dev-210415 AWS::CloudFormation::Stack Thu Aug 12 2021 21:04:21 GMT+0530 (India Standard Time) User Initiated
+CREATE_IN_PROGRESS AuthRole                           AWS::IAM::Role             Thu Aug 12 2021 21:04:25 GMT+0530 (India Standard Time)  
+
+CREATE_IN_PROGRESS DeploymentBucket                   AWS::S3::Bucket            Thu Aug 12 2021 21:04:25 GMT+0530 (India Standard Time)  
+
+CREATE_IN_PROGRESS UnauthRole                         AWS::IAM::Role             Thu Aug 12 2021 21:04:25 GMT+0530 (India Standard Time)  
+
+CREATE_IN_PROGRESS AuthRole                           AWS::IAM::Role             Thu Aug 12 2021 21:04:25 GMT+0530 (India Standard Time) Resource creation Initiated
+CREATE_IN_PROGRESS UnauthRole                         AWS::IAM::Role             Thu Aug 12 2021 21:04:26 GMT+0530 (India Standard Time) Resource creation Initiated
+CREATE_IN_PROGRESS DeploymentBucket                   AWS::S3::Bucket            Thu Aug 12 2021 21:04:26 GMT+0530 (India Standard Time) Resource creation Initiated
+- Initializing project in the cloud...
+
+CREATE_COMPLETE AuthRole   AWS::IAM::Role Thu Aug 12 2021 21:04:40 GMT+0530 (India Standard Time)
+CREATE_COMPLETE UnauthRole AWS::IAM::Role Thu Aug 12 2021 21:04:41 GMT+0530 (India Standard Time)
+\ Initializing project in the cloud...
+
+CREATE_COMPLETE DeploymentBucket AWS::S3::Bucket Thu Aug 12 2021 21:04:47 GMT+0530 (India Standard Time) 
+/ Initializing project in the cloud...
+
+CREATE_COMPLETE amplify-amplifyreactapp-dev-210415 AWS::CloudFormation::Stack Thu Aug 12 2021 21:04:49 GMT+0530 (India Standard Time) 
+√ Successfully created initial AWS cloud resources for deployments.
+√ Initialized provider successfully.
+Initialized your environment successfully.
+
+Your project has been successfully initialized and connected to the cloud!
+
+Some next steps:
+"amplify status" will show you what you've added already and if it's locally configured or deployed
+"amplify add <category>" will allow you to add features like user login or a backend API
+"amplify push" will build all your local backend resources and provision it in the cloud
+"amplify console" to open the Amplify Console and view your project status
+"amplify publish" will build all your local backend and frontend resources (if you have hosting category added) and provision it in the cloud
+
+Pro tip:
+Try "amplify add api" to create a backend API and then "amplify publish" to deploy everything
+
+
+C:\Users\kumar\amplify-react-app>
+
+Microsoft Windows [Version 10.0.19042.1052]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\kumar\amplify-react-app>amplify configure
+Follow these steps to set up access to your AWS account:
+
+Sign in to your AWS administrator account:
+https://console.aws.amazon.com/
+Press Enter to continue
+
+Specify the AWS Region
+? region:  (Use arrow keys)
+> us-east-1
+  us-east-2
+  us-west-2
+  eu-west-1
+  eu-west-2
+  eu-central-1
+  ap-northeast-1
+(Move up and down to reveal more choices)
+C:\Users\kumar\amplify-react-app>amplify configure
+Follow these steps to set up access to your AWS account:
+
+Sign in to your AWS administrator account:
+https://console.aws.amazon.com/
+Press Enter to continue
+
+Specify the AWS Region
+? region:  us-west-2
+Specify the username of the new IAM user:
+? user name:  amplify-user
+Complete the user creation using the AWS console
+https://console.aws.amazon.com/iam/home?region=us-west-2#/users$new?step=final&accessKey&userNames=amplify-user&permissionType=policies&policies=arn:aws:iam::aws:policy%2FAdministratorAccess
+Press Enter to continue
+
+Enter the access key of the newly created user:
+? accessKeyId:  ********************
+? secretAccessKey:  ****************************************
+This would update/create the AWS Profile in your local machine
+? Profile Name:  amplify-user
+
+Successfully set up the new user.
+
+C:\Users\kumar\amplify-react-app>amplify init
+Note: It is recommended to run this command from the root of your app directory
+? Enter a name for the project amplifyreactapp
+The following configuration will be applied:
+
+Project information
+| Name: amplifyreactapp
+| Environment: dev
+| Default editor: Visual Studio Code
+| App type: javascript
+| Javascript framework: react
+| Source Directory Path: src
+| Distribution Directory Path: build
+| Build Command: npm.cmd run-script build
+| Start Command: npm.cmd run-script start
+
+? Initialize the project with the above configuration? Yes
+Using default provider  awscloudformation
+? Select the authentication method you want to use: AWS profile
+
+For more information on AWS Profiles, see:
+https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html
+
+? Please choose the profile you want to use amplify-user
+Adding backend environment dev to AWS Amplify Console app: d3p2pft6tswzyp
+| Initializing project in the cloud...
+
+CREATE_IN_PROGRESS amplify-amplifyreactapp-dev-210415 AWS::CloudFormation::Stack Thu Aug 12 2021 21:04:21 GMT+0530 (India Standard Time) User Initiated
+CREATE_IN_PROGRESS AuthRole                           AWS::IAM::Role             Thu Aug 12 2021 21:04:25 GMT+0530 (India Standard Time)  
+
+CREATE_IN_PROGRESS DeploymentBucket                   AWS::S3::Bucket            Thu Aug 12 2021 21:04:25 GMT+0530 (India Standard Time)  
+
+CREATE_IN_PROGRESS UnauthRole                         AWS::IAM::Role             Thu Aug 12 2021 21:04:25 GMT+0530 (India Standard Time)  
+
+CREATE_IN_PROGRESS AuthRole                           AWS::IAM::Role             Thu Aug 12 2021 21:04:25 GMT+0530 (India Standard Time) Resource creation Initiated
+CREATE_IN_PROGRESS UnauthRole                         AWS::IAM::Role             Thu Aug 12 2021 21:04:26 GMT+0530 (India Standard Time) Resource creation Initiated
+CREATE_IN_PROGRESS DeploymentBucket                   AWS::S3::Bucket            Thu Aug 12 2021 21:04:26 GMT+0530 (India Standard Time) Resource creation Initiated
+- Initializing project in the cloud...
+
+CREATE_COMPLETE AuthRole   AWS::IAM::Role Thu Aug 12 2021 21:04:40 GMT+0530 (India Standard Time)
+CREATE_COMPLETE UnauthRole AWS::IAM::Role Thu Aug 12 2021 21:04:41 GMT+0530 (India Standard Time)
+\ Initializing project in the cloud...
+
+CREATE_COMPLETE DeploymentBucket AWS::S3::Bucket Thu Aug 12 2021 21:04:47 GMT+0530 (India Standard Time)
+/ Initializing project in the cloud...
+
+CREATE_COMPLETE amplify-amplifyreactapp-dev-210415 AWS::CloudFormation::Stack Thu Aug 12 2021 21:04:49 GMT+0530 (India Standard Time)     
+√ Successfully created initial AWS cloud resources for deployments.
+√ Initialized provider successfully.
+Initialized your environment successfully.
+
+Your project has been successfully initialized and connected to the cloud!
+
+Some next steps:
+"amplify status" will show you what you've added already and if it's locally configured or deployed
+"amplify add <category>" will allow you to add features like user login or a backend API
+"amplify push" will build all your local backend resources and provision it in the cloud
+"amplify console" to open the Amplify Console and view your project status
+"amplify publish" will build all your local backend and frontend resources (if you have hosting category added) and provision it in the cloud
+
+Pro tip:
+Try "amplify add api" to create a backend API and then "amplify publish" to deploy everything
+
+
+C:\Users\kumar\amplify-react-app>
+
+C:\Users\kumar\amplify-react-app>amplify add auth
+Using service: Cognito, provided by: awscloudformation
+
+ The current configured provider is Amazon Cognito. 
+
+ Do you want to use the default authentication and security configuration? Default configuration
+ Warning: you will not be able to edit these selections. 
+ How do you want users to be able to sign in? Email      
+ Do you want to configure advanced settings? No, I am done.
+Successfully added auth resource amplifyreactapp26403c74 locally
+
+Some next steps:
+"amplify push" will build all your local backend resources and provision it in the cloud
+"amplify publish" will build all your local backend and frontend resources (if you have hosting category added) and provision it in the cloud
+
+
+C:\Users\kumar\amplify-react-app>amplify push
+√ Successfully pulled backend environment dev from the cloud.
+
+Current Environment: dev
+
+| Category | Resource name           | Operation | Provider plugin   |
+| -------- | ----------------------- | --------- | ----------------- |
+| Auth     | amplifyreactapp26403c74 | Create    | awscloudformation |
+? Are you sure you want to continue? Yes
+/ Updating resources in the cloud. This may take a few minutes...
+
+UPDATE_IN_PROGRESS amplify-amplifyreactapp-dev-210415 AWS::CloudFormation::Stack Thu Aug 12 2021 21:09:31 GMT+0530 (India Standard Time) User Initiated
+CREATE_IN_PROGRESS authamplifyreactapp26403c74        AWS::CloudFormation::Stack Thu Aug 12 2021 21:09:36 GMT+0530 (India Standard Time)  
+
+CREATE_IN_PROGRESS UpdateRolesWithIDPFunctionRole     AWS::IAM::Role             Thu Aug 12 2021 21:09:37 GMT+0530 (India Standard Time)  
+
+CREATE_IN_PROGRESS authamplifyreactapp26403c74        AWS::CloudFormation::Stack Thu Aug 12 2021 21:09:37 GMT+0530 (India Standard Time) Resource creation Initiated
+CREATE_IN_PROGRESS UpdateRolesWithIDPFunctionRole     AWS::IAM::Role             Thu Aug 12 2021 21:09:38 GMT+0530 (India Standard Time) Resource creation Initiated
+| Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS amplify-amplifyreactapp-dev-210415-authamplifyreactapp26403c74-TZWZXQ4DQOLO AWS::CloudFormation::Stack Thu Aug 12 2021 
+21:09:37 GMT+0530 (India Standard Time) User Initiated
+/ Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS SNSRole AWS::IAM::Role Thu Aug 12 2021 21:09:43 GMT+0530 (India Standard Time) 
+\ Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS SNSRole AWS::IAM::Role Thu Aug 12 2021 21:09:44 GMT+0530 (India Standard Time) Resource creation Initiated
+- Updating resources in the cloud. This may take a few minutes...
+
+CREATE_COMPLETE UpdateRolesWithIDPFunctionRole AWS::IAM::Role Thu Aug 12 2021 21:09:53 GMT+0530 (India Standard Time) 
+| Updating resources in the cloud. This may take a few minutes...
+
+CREATE_COMPLETE SNSRole AWS::IAM::Role Thu Aug 12 2021 21:10:00 GMT+0530 (India Standard Time) 
+/ Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS UserPool AWS::Cognito::UserPool Thu Aug 12 2021 21:10:06 GMT+0530 (India Standard Time)
+CREATE_IN_PROGRESS UserPool AWS::Cognito::UserPool Thu Aug 12 2021 21:10:08 GMT+0530 (India Standard Time) Resource creation Initiated    
+CREATE_COMPLETE    UserPool AWS::Cognito::UserPool Thu Aug 12 2021 21:10:08 GMT+0530 (India Standard Time)
+| Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS UserPoolClientWeb AWS::Cognito::UserPoolClient Thu Aug 12 2021 21:10:12 GMT+0530 (India Standard Time)
+
+CREATE_IN_PROGRESS UserPoolClient    AWS::Cognito::UserPoolClient Thu Aug 12 2021 21:10:12 GMT+0530 (India Standard Time)
+
+CREATE_IN_PROGRESS UserPoolClientWeb AWS::Cognito::UserPoolClient Thu Aug 12 2021 21:10:14 GMT+0530 (India Standard Time) Resource creation Initiated
+CREATE_COMPLETE    UserPoolClientWeb AWS::Cognito::UserPoolClient Thu Aug 12 2021 21:10:14 GMT+0530 (India Standard Time)
+
+CREATE_IN_PROGRESS UserPoolClient    AWS::Cognito::UserPoolClient Thu Aug 12 2021 21:10:14 GMT+0530 (India Standard Time) Resource creation Initiated
+CREATE_COMPLETE    UserPoolClient    AWS::Cognito::UserPoolClient Thu Aug 12 2021 21:10:14 GMT+0530 (India Standard Time)
+
+- Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS UserPoolClientRole AWS::IAM::Role Thu Aug 12 2021 21:10:17 GMT+0530 (India Standard Time)
+CREATE_IN_PROGRESS UserPoolClientRole AWS::IAM::Role Thu Aug 12 2021 21:10:18 GMT+0530 (India Standard Time) Resource creation Initiated  
+\ Updating resources in the cloud. This may take a few minutes...
+
+CREATE_COMPLETE UserPoolClientRole AWS::IAM::Role Thu Aug 12 2021 21:10:33 GMT+0530 (India Standard Time) 
+/ Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS UserPoolClientLambda AWS::Lambda::Function Thu Aug 12 2021 21:10:37 GMT+0530 (India Standard Time) 
+| Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS UserPoolClientLambda AWS::Lambda::Function Thu Aug 12 2021 21:10:39 GMT+0530 (India Standard Time) Resource creation Initiated
+CREATE_COMPLETE    UserPoolClientLambda AWS::Lambda::Function Thu Aug 12 2021 21:10:40 GMT+0530 (India Standard Time)
+
+- Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS UserPoolClientLambdaPolicy AWS::IAM::Policy Thu Aug 12 2021 21:10:43 GMT+0530 (India Standard Time)
+
+CREATE_IN_PROGRESS UserPoolClientLambdaPolicy AWS::IAM::Policy Thu Aug 12 2021 21:10:44 GMT+0530 (India Standard Time) Resource creation Initiated
+- Updating resources in the cloud. This may take a few minutes...
+
+CREATE_COMPLETE UserPoolClientLambdaPolicy AWS::IAM::Policy Thu Aug 12 2021 21:10:58 GMT+0530 (India Standard Time) 
+- Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS UserPoolClientLogPolicy AWS::IAM::Policy Thu Aug 12 2021 21:11:02 GMT+0530 (India Standard Time)
+
+CREATE_IN_PROGRESS UserPoolClientLogPolicy AWS::IAM::Policy Thu Aug 12 2021 21:11:03 GMT+0530 (India Standard Time) Resource creation Initiated
+- Updating resources in the cloud. This may take a few minutes...
+
+CREATE_COMPLETE UserPoolClientLogPolicy AWS::IAM::Policy Thu Aug 12 2021 21:11:17 GMT+0530 (India Standard Time) 
+\ Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS UserPoolClientInputs Custom::LambdaCallout Thu Aug 12 2021 21:11:21 GMT+0530 (India Standard Time) 
+| Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS UserPoolClientInputs Custom::LambdaCallout Thu Aug 12 2021 21:11:25 GMT+0530 (India Standard Time) Resource creation Initiated
+CREATE_COMPLETE    UserPoolClientInputs Custom::LambdaCallout Thu Aug 12 2021 21:11:25 GMT+0530 (India Standard Time)
+
+/ Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS IdentityPool AWS::Cognito::IdentityPool Thu Aug 12 2021 21:11:28 GMT+0530 (India Standard Time) 
+\ Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS IdentityPool AWS::Cognito::IdentityPool Thu Aug 12 2021 21:11:31 GMT+0530 (India Standard Time) Resource creation Initiated
+CREATE_COMPLETE    IdentityPool AWS::Cognito::IdentityPool Thu Aug 12 2021 21:11:32 GMT+0530 (India Standard Time)
+
+| Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS IdentityPoolRoleMap AWS::Cognito::IdentityPoolRoleAttachment Thu Aug 12 2021 21:11:35 GMT+0530 (India Standard Time) 
+| Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS IdentityPoolRoleMap AWS::Cognito::IdentityPoolRoleAttachment Thu Aug 12 2021 21:11:37 GMT+0530 (India Standard Time) Resource creation Initiated
+CREATE_COMPLETE    IdentityPoolRoleMap AWS::Cognito::IdentityPoolRoleAttachment Thu Aug 12 2021 21:11:37 GMT+0530 (India Standard Time)   
+
+| Updating resources in the cloud. This may take a few minutes...
+
+CREATE_COMPLETE amplify-amplifyreactapp-dev-210415-authamplifyreactapp26403c74-TZWZXQ4DQOLO AWS::CloudFormation::Stack Thu Aug 12 2021 21:11:39 GMT+0530 (India Standard Time) 
+- Updating resources in the cloud. This may take a few minutes...
+
+CREATE_COMPLETE authamplifyreactapp26403c74 AWS::CloudFormation::Stack Thu Aug 12 2021 21:11:53 GMT+0530 (India Standard Time)
+/ Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS UpdateRolesWithIDPFunction AWS::Lambda::Function Thu Aug 12 2021 21:11:55 GMT+0530 (India Standard Time)
+| Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS UpdateRolesWithIDPFunction AWS::Lambda::Function Thu Aug 12 2021 21:11:58 GMT+0530 (India Standard Time) Resource creation Initiated
+CREATE_COMPLETE    UpdateRolesWithIDPFunction AWS::Lambda::Function Thu Aug 12 2021 21:11:58 GMT+0530 (India Standard Time)
+
+| Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS UpdateRolesWithIDPFunctionOutputs Custom::LambdaCallout Thu Aug 12 2021 21:12:01 GMT+0530 (India Standard Time)        
+- Updating resources in the cloud. This may take a few minutes...
+
+CREATE_IN_PROGRESS UpdateRolesWithIDPFunctionOutputs Custom::LambdaCallout Thu Aug 12 2021 21:12:05 GMT+0530 (India Standard Time) Resource creation Initiated
+CREATE_COMPLETE    UpdateRolesWithIDPFunctionOutputs Custom::LambdaCallout Thu Aug 12 2021 21:12:05 GMT+0530 (India Standard Time)        
+
+- Updating resources in the cloud. This may take a few minutes...
+
+UPDATE_COMPLETE_CLEANUP_IN_PROGRESS amplify-amplifyreactapp-dev-210415 AWS::CloudFormation::Stack Thu Aug 12 2021 21:12:08 GMT+0530 (Indiadia Standard Time)
+UPDATE_COMPLETE                     amplify-amplifyreactapp-dev-210415 AWS::CloudFormation::Stack Thu Aug 12 2021 21:12:09 GMT+0530 (Indiadia Standard Time)
+√ All resources are updated in the cloud
+
+
+
+C:\Users\kumar\amplify-react-app>nmp install --save aws-amplify @aws-amplify/ui-react
+'nmp' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\kumar\amplify-react-app>npm install --save aws-amplify @aws-amplify/ui-react 
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.3.2: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN @babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@7.14.5 requires a peer of @babel/core@^7.13.0 but none is installed. You must install peer dependencies yourself.
+npm WARN tsutils@3.21.0 requires a peer of typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta but none is installed. You must install peer dependencies yourself.
+npm WARN react-native-get-random-values@1.7.0 requires a peer of react-native@>=0.56 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\webpack-dev-server\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\watchpack-chokidar2\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.2 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ aws-amplify@4.2.2
++ @aws-amplify/ui-react@1.2.8
+added 210 packages from 410 contributors and audited 2139 packages in 131.944s
+
+149 packages are looking for funding
+  run `npm fund` for details
+
+Compiled with warnings.
+
+src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars 
+
+Search for the keywords to learn more about each warning.     
+To ignore, add // eslint-disable-next-line to the line before.
+
+Terminate batch job (Y/N)? y
+
+C:\Users\kumar\amplify-react-app>

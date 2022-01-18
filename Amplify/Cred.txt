@@ -1,0 +1,74 @@
+IAM - AWS
+
+dev@nspire.ai
+SF4W^kbBKShiXn&5
+
+Docker
+8971571
+Kolkata@1234
+
+
+
+https://cognizantcorp.webex.com/meet/Arunava.Maiti
+
+
+SAM
+sam local text-summarization
+
+s3://nspire-python-libraries
+
+
+Customized template
+## @type: Spigot
+
+## @args: [path = "s3://awsglue/output"]
+
+## @return: spigot0
+
+## @input: [frame = datasource0]
+
+spigot0 = Spigot.apply(frame = datasource0, path = "s3://awsglue/output")
+
+
+
+Template
+## @type: Spigot
+
+## @args: [path = "<path>"]
+
+## @return: <output>
+
+## @input: [frame = <frame>]
+
+<output> = Spigot.apply(frame = <frame>, path = "<path>")
+
+---------------------
+https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html
+------------------------
+
+----------virtual env
+
+python -m virtualenv dev
+.\Scripts\activate
+
+import json
+import boto3
+s3_client = boto3.client("s3") 
+
+def lambda_handler(event, context):
+  
+    source_bucket = event['record'][0]['s3']['bucket']['name']
+    file_name =event['record'][0]['s3']['object']['key']
+
+    file_object =s3_client.get_object(source_bucket,key = file_name)
+    print ("file_object:",file_object)
+
+    file_content = file_object['body'].read().decode("utf-8")
+    print("file_content",file_content)
+	
+	
+proj Build
+----------
+aws ecr get-login-password --region us-west-2 | docker login --username AWS --password-stdin 651611451297.dkr.ecr.us-west-2.amazonaws.com
+
+sam deploy --guided
