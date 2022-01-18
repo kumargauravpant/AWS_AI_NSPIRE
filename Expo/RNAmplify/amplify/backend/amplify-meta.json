@@ -1,0 +1,54 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-expoamplifytest-dev-100456-authRole",
+      "UnauthRoleArn": "arn:aws:iam::651611451297:role/amplify-expoamplifytest-dev-100456-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::651611451297:role/amplify-expoamplifytest-dev-100456-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-expoamplifytest-dev-100456-deployment",
+      "UnauthRoleName": "amplify-expoamplifytest-dev-100456-unauthRole",
+      "StackName": "amplify-expoamplifytest-dev-100456",
+      "StackId": "arn:aws:cloudformation:us-west-2:651611451297:stack/amplify-expoamplifytest-dev-100456/fc25dc20-016f-11ec-89b9-02179cf26575",
+      "AmplifyAppId": "d2kk0a0m5vodeh"
+    }
+  },
+  "auth": {
+    "expoamplifyteste9932417": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "loginMechanism": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-expoamplifytest-dev-100456-deployment/amplify-cfn-templates/auth/expoamplifyteste9932417-cloudformation-template.yml",
+        "logicalId": "authexpoamplifyteste9932417"
+      },
+      "lastPushTimeStamp": "2021-08-20T04:57:55.948Z",
+      "output": {
+        "UserPoolId": "us-west-2_CsJrfnlMn",
+        "AppClientIDWeb": "6dmbl93bkeq6i2lg3ierri5j2f",
+        "AppClientID": "4njl0hqqh92bru3grkqjufiibt",
+        "IdentityPoolId": "us-west-2:0b86e072-299e-4266-9028-612f800a5ac6",
+        "UserPoolArn": "arn:aws:cognito-idp:us-west-2:651611451297:userpool/us-west-2_CsJrfnlMn",
+        "IdentityPoolName": "expoamplifyteste9932417_identitypool_e9932417__dev",
+        "UserPoolName": "expoamplifyteste9932417_userpool_e9932417"
+      },
+      "lastPushDirHash": "njUl2wJPrZwzVWIMq7qWS8vHu1A="
+    }
+  }
+}
